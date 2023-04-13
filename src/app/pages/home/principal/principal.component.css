@@ -1,0 +1,53 @@
+.topo {
+  margin: 30px;
+  font-family: 'Nunito', sans-serif;
+  color: #424242;
+}
+
+.meio {
+  margin: 30px;
+  font-family: 'Nunito', sans-serif;
+  color: #424242;
+  background-color: #c0c0c0;
+  border-radius: 15px;
+  padding: 15px 0;
+}
+
+.img-topo {
+  max-height: 200px;
+}
+
+.texto-topo {
+  margin-right: 15px;
+  max-width: 500px;
+}
+
+.texto-topo h4 {
+  color: #424242;
+}
+
+.texto-topo p {
+  color: #5C5C5C;
+}
+
+.img-meio {
+  max-height: 200px;
+  margin-right: 0px;
+}
+
+.texto-meio {
+  max-width: 500px;
+  margin: 20px;
+  text-align: center;
+  color: #424242;
+}
+
+.meio {
+  margin: 30px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #c0c0c0;
+  border-radius: 15px;
+  padding: 15px 0;
+}
+
+

@@ -1,0 +1,132 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<nav class="cabecalho d-flex flex-row flex-wrap justify-content-evenly">
+  <div class="logo d-flex flex-row align-items-center">
+    <img class="imgLogo" src="../../../../assets/img/logo.png" alt="Imagem de uma pata de cão em tons pastéis">
+    <h1>IdentificaCão</h1>
+  </div>
+  <div class="menu d-flex flex-column flex-wrap justify-content-end align-items-center">
+    <div class="menu-topo">
+      <h3>Encontrei um Animal</h3>
+    </div>
+    <div class="menu-baixo d-flex flex-row justify-content-between">
+      <a href="#sobre"><h3>Sobre</h3></a>
+      <a href="#contato"><h3>Contato</h3></a>
+      <h3>Login</h3>
+    </div>
+  </div>
+</nav>
+
+<app-principal></app-principal>
+
+<div class="sobre d-flex flex-column align-items-center" id="sobre">
+  <h4>Sobre as Funcionalidades</h4>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Registro de Usuários
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          É possível efetuar registro em 4 modalidades de usuários: pessoa física, abrigo de animal(ONGs, abrigos públicos...), protetor de animal e pessoa jurídica (abrigos comerciais). Para isso, basta selecionar a modalidade no formulário de cadastro de usuário.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Registro de Animais
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          É possível cadastrar um número ilimitado de animais por usuários, onde mesmos são listados dentro da página do usuário. O sistema permite, no registro do animal, inserir histórico de vacinação, histórico de vermifugação e também histórico de consultas veterinárias.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          QRCode Animal
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Ao registrar um animal, o sistema automaticamente fornecerá um QRCode único, que dá acesso à uma página pública dass informações do animal. O QRCode animal fornecido, poderá ser utilizado como identificador em placas e coleiras caso o tutor quiser, fornecendo assim uma forma segura e eficaz de identificação do animal.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Informar perda de um animal
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          O usuário, ao perder um animal, poderá registrar sua perda na opção de <strong>perdidos</strong> em sua página. Nessa seção, também é mostrado os animais que receberam registro de perdidos, mostrando informações atualizadas da pessoa que tenha encontrado o animal, caso alguém tenha encontrado e notificado no site o encontro.
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+            Encontrei uma animal, como verifico se está registrado no sistema e comunico seu encontro?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Ao encontrar um animal, é possível pesquisar se há registrado no sistema algum animal com as mesmas características do animal encontrado pela opção <strong>Achados</strong> na página do usuário ou pela opção <strong>Encontrei um Animal</strong> no menu principal da página inicial. <br>
+            No caso do animal possuir identificação com QRCode, basta direcionar a câmera do celular e realizar sua leitura, que será direcionado à página pública do animal, indicando o encontro dele. Para procurar o animal pelo número de seu microchip, ou por características, é necessário informà-los no formulário de busca de animais perdidos, sendo retornado todos animais registrados como perdidos no sistema, compatíveis com as características informadas. <br>
+            Para verificar as informações dos animais listados, basta cliclar em seu nome, que será mostrado a página pública de informações do animal.Ao verificar na página, que é o animal encontrado, basta registrar no botão, como animal encontrado, que as informações serão compartilhados para tutor entrar em contato. <br>
+            Para realizar o registro de encontro de um animal, é necessário possuir cadastro de usuário e estar logado na página.
+          </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Por que não tenho acesso às informações do tutor de um animal perdido?
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Entendemos que encontrar um animalzinho perdido, encontrar seu tutor e devolvê-lo ao seu lar, é um ato nobre, porém, sabemos também que há casos onde há pedidos de resgate para retornar o animal ao seu tutor. <br>
+          Por isso, o IdentificaCão não permite que as informações do tutor de um animal perdido sejam compartilhadas a quem achá-lo, sendo somenete passado informações do usuário que encontrou o animal diretamente para o tutor, para que ele entre em contato. <br>
+          Essa prática também é evitada ao solicitarmos cadastro no sistema de usuário para que seja informado o encontro de um animal, mantendo assim a segurança de todos os tutores e seus animais.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          Como realizo a trasnferência de um animal para um novo tutor?
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Nos casos onde há trasnferência de um animal pára um novo tutor, como em casos de adoção, é possível realizar a transferência desse animal. Para isso, é necessário que o tutor atual do animal, acesse sua página, entre na página do animal a ser transferido e gere um código de transferência ao final da págin, pelo botão <strong>Gerar Código de Transferência</strong>. <br>
+          O novo tutor, terá que informar esse código ao registrar um novo animal, permitindo assim realizar a trasnferência de registro do animal para seu perfil. <br>
+          Após a transferência de um animal, suas informações constinuam sendo compartilhadas com seu antigo tutor em na opção de <strong>Adotados</strong>, podendo assim, acompanhar todas as adoções realizadas. Somente o tutor que realizou o primeiro cadastro do animal poderá acompanhar esses dados.<br>
+          No caso do animal adotado ser devolvido ao seu antigo tutor, após a transferência do animal pelo mesmo método, ficará registrado como devolvido na página inicial até que seja novamente adotado.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="contato d-flex justify-content-evenly" id="contato">
+  <div class="dev d-flex ">
+    <p>IdentificaCão desenvolvido por Patrícia Canossa e Ellen Canossa</p>
+  </div>
+  <div class="contatos d-flex flex-column align-items-center">
+    <p>Entre em contato conosco</p>
+    <div class="icons d-flex justify-content-evenly">
+      <a href="mailto:p.canossa@hotmail.com?subject=Contato IdentificaCao"><span class="material-symbols-outlined">mail</span></a>
+      <a href=""><i class="fa-brands fa-whatsapp" style="color: #416bf6;"></i></a>
+    </div>
+  </div>
+</div>
+
