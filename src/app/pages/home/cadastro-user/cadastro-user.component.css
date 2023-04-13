@@ -29,3 +29,8 @@ input {
 .form-check {
   margin: 10px 50px;
 }
+
+.btn {
+  background-color: #7d0b9d;
+  border: none;
+}

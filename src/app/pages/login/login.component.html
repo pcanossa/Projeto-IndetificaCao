@@ -1,5 +1,36 @@
-<div class="body">
-  <div class="login-box">
-    aaa
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<div class="body d-flex flex-column justify-content-center align-items-center">
+  <div class="login-box container d-flex flex-column justify-content-center align-items-center">
+    <img src="../../../assets/img/logo.png" class="imgLogo" alt="">
+    <h1>IdentificaCão</h1>
+    <div class="container dados-login">
+      <form action="" class="login">
+      <label class="usuario d-flex">
+        <span class="material-symbols-outlined">
+          account_circle
+        </span>
+        Usuário
+      </label>
+      <input type="text" placeholder="Email ou CPF" formControlName="username" class="password ">
+      <hr>
+      <label class="senha d-flex">
+        <span class="material-symbols-outlined">
+          lock
+        </span>
+        Senha
+      </label>
+      <input type="password" placeholder="Senha" formControlName="password">
+      <hr>
+      <button class="btn btn-primary" type="button">
+        LOGIN
+      </button>
+    </form>
+      <div class="erro d-flex justify-content-center align-items-center">
+      </div>
+    </div>
+  </div>
+  <div class="opcoes">
+    <p>Esqueci minha senha</p>
+    <a href="/cadastro"><p>Não possui cadastro? Cadastre-se aqui.</p></a>
   </div>
 </div>
