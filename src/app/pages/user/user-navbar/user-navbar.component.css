@@ -1,0 +1,37 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  color: #5C5C5C;
+  text-decoration: none;
+}
+
+.body {
+  min-height: 100vh;
+  color: #4A4A4A;
+  background-color: #E9CEF6;
+  min-width: 100%;
+}
+
+.head-menu {
+  padding: 22px 0 40px 0;
+}
+
+.imgLogo {
+  max-width: 103px;
+  max-height: 104px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.head-menu h1 {
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 0px 4px 4px #00000040;
+  font-weight: bold;
+}
+
+.itens-menu {
+  padding-left: 40px;
+}
+
+.item-menu {
+  margin-bottom: 35px;
+}

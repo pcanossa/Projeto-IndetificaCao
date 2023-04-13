@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { NavbarComponent } from './home/navbar/navbar.component';
+import { FooterComponent } from './home/footer/footer.component';
 import { PrincipalComponent } from './home/principal/principal.component';
 import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
@@ -16,7 +17,8 @@ import { ListaEncontradosComponent } from './home/lista-encontrados/lista-encont
 import { LoginComponent } from './login/login.component';
 import { AnimaisComponent } from './user/animais/animais.component';
 import { AnimalPageComponent } from './user/animal-page/animal-page.component';
-import { FooterComponent } from './home/footer/footer.component';
+import { UserNavbarComponent } from './user/user-navbar/user-navbar.component';
+
 
 
 
@@ -24,6 +26,7 @@ import { FooterComponent } from './home/footer/footer.component';
   declarations: [
     HomeComponent,
     NavbarComponent,
+    FooterComponent,
     UserComponent,
     PrincipalComponent,
     CadastroUserComponent,
@@ -36,7 +39,7 @@ import { FooterComponent } from './home/footer/footer.component';
     LoginComponent,
     AnimaisComponent,
     AnimalPageComponent,
-    FooterComponent,
+    UserNavbarComponent,
   ],
   imports: [
     CommonModule,
