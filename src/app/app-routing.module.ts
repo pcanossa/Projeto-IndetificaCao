@@ -5,6 +5,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { PrincipalComponent } from './pages/home/principal/principal.component';
 import { AnimaisComponent } from './pages/user/animais/animais.component';
 import { HomeComponent } from './pages/home/home.component';
+import { CadastroUserComponent } from './pages/home/cadastro-user/cadastro-user.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent
+  },
+  {
+    path: 'cadastro',
+    component: CadastroUserComponent
   }
 ];
 

@@ -16,6 +16,7 @@ import { ListaEncontradosComponent } from './home/lista-encontrados/lista-encont
 import { LoginComponent } from './login/login.component';
 import { AnimaisComponent } from './user/animais/animais.component';
 import { AnimalPageComponent } from './user/animal-page/animal-page.component';
+import { FooterComponent } from './home/footer/footer.component';
 
 
 
@@ -35,6 +36,7 @@ import { AnimalPageComponent } from './user/animal-page/animal-page.component';
     LoginComponent,
     AnimaisComponent,
     AnimalPageComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule,

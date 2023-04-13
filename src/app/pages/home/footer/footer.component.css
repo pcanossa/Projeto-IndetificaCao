@@ -1,0 +1,39 @@
+.sobre {
+  margin: 50px 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion-button {
+  background-color: rgb(234, 201, 249);
+  color: #424242;
+  font-weight: bold;
+}
+
+.contato {
+  font-family: 'Nunito', sans-serif;
+  padding: 20px 0;
+  background-color: #c0c0c0;
+  color: #424242;
+}
+
+.dev {
+  margin: 20px;
+}
+
+.contato .dev p{
+  margin-top: 5px;
+  font-size: x-small;
+  margin-bottom: 0;
+}
+
+.contatos p {
+  text-align: center;
+}
+
+.icons a {
+  margin-left: 5px;
+}
