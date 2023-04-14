@@ -33,7 +33,7 @@
           <h6>Estado do Resgate: SP</h6>
         </div>
     </div>
-    <div class="vacinas d-flex flex-column align-items-center">
+    <div class="vacinas d-flex flex-column align-items-center flex-wrap">
       <hr><br>
       <h2>HISTÓRICO DE VACINAS</h2>
         <div class="card-vacina d-flex justify-content-start">
@@ -46,6 +46,159 @@
           <div class="excluir d-flex align-items-center justify-content-end">
             <h2><i class="fa-regular fa-trash-can" style="color: #9d1e15;"></i></h2>
           </div>
+        </div>
+        <div class="adicionar-vacina d-flex align-items-center justify-content-center">
+          <h5><i class="fa-solid fa-plus"></i> Nova Vacina</h5>
+        </div>
+        <div class="nova-vacina d-flex flex-wrap">
+          <form action="" class="d-flex align-items-center justify-content-evenly">
+            <div class="inputs">
+              <input class="form-control" type="text" name="dataVacina" placeholder="Data de Aplicação">
+              <input class="form-control" type="text" name="tipoVacina" placeholder="Vacina Aplicada">
+            </div>
+            <div class="inputs">
+              <input class="form-control" type="text" name="marcaVacina" placeholder="Marca da Vacina">
+            <input class="form-control" type="text" name="reforcoVacina" placeholder="Data de Reforço">
+            </div>
+          </form>
+        </div>
+        <div class="confirma-exclui">
+          <div class="opcoes">
+            <h4>
+              <i class="fa-solid fa-check" style="color: #268b24;"></i>
+              <i class="fa-solid fa-xmark" style="color: #9d1e15;"></i>
+            </h4>
+          </div>
+        </div>
+    </div>
+    <div class="vacinas d-flex flex-column align-items-center flex-wrap">
+      <hr><br>
+      <h2>HISTÓRICO DE VERMIFUGAÇÃO</h2>
+        <div class="card-vacina d-flex justify-content-start">
+          <div class="dados-vacina">
+            <h6>Data da Aplicação: 20/01/2023</h6>
+            <h6>Vermífugo: Drontal</h6>
+            <h6>Data de Reforço: 20/01/2024</h6>
+          </div>
+          <div class="excluir d-flex align-items-center justify-content-end">
+            <h2><i class="fa-regular fa-trash-can" style="color: #9d1e15;"></i></h2>
+          </div>
+        </div>
+        <div class="adicionar-vacina d-flex align-items-center justify-content-center">
+          <h5><i class="fa-solid fa-plus"></i> Nova Vermifugação</h5>
+        </div>
+        <div class="nova-vacina d-flex flex-wrap">
+          <form action="" class="d-flex align-items-center justify-content-evenly">
+            <div class="inputs d-flex flex-wrap align-items-center justify-content-center">
+              <input class="form-control" type="text" name="dataVermifugo" placeholder="Data de Aplicação">
+              <input class="form-control" type="text" name="nomeVermifugo" placeholder="Nome do Vermífugo">
+              <input class="form-control" type="text" name="reforcoVermifugo" placeholder="Data de Reforço">
+            </div>
+          </form>
+        </div>
+        <div class="confirma-exclui">
+          <div class="opcoes">
+            <h4>
+              <i class="fa-solid fa-check" style="color: #268b24;"></i>
+              <i class="fa-solid fa-xmark" style="color: #9d1e15;"></i>
+            </h4>
+          </div>
+        </div>
+    </div>
+    <div class="vacinas d-flex flex-column align-items-center flex-wrap">
+      <hr><br>
+      <h2>HISTÓRICO VETERINÁRIO</h2>
+        <div class="card-vacina d-flex justify-content-start">
+          <div class="dados-vacina">
+            <h6>Data da Consulta: 20/01/2023</h6>
+            <h6>Médico Veterinário: Ellen C. G. Murata</h6>
+            <h6>Clínica: Phytocannis</h6>
+            <h6>Diagnóstico: Giardíase</h6>
+            <h6>Tratamento</h6>
+            <h6>Giardicid - 1comprimido - 2x dia - 5 dias</h6>
+          </div>
+          <div class="excluir d-flex align-items-center justify-content-end">
+            <h2><i class="fa-regular fa-trash-can" style="color: #9d1e15;"></i></h2>
+          </div>
+        </div>
+        <div class="adicionar-vacina d-flex align-items-center justify-content-center">
+          <h5><i class="fa-solid fa-plus"></i> Nova Consulta</h5>
+        </div>
+        <div class="nova-vacina d-flex flex-column flex-wrap">
+          <form action="" class="d-flex align-items-center justify-content-evenly">
+            <div class="inputs">
+              <input class="form-control" type="text" name="dataConsulra" placeholder="Data da Consulta">
+              <input class="form-control" type="text" name="MVConsulta" placeholder="Veterinário responsável">
+            </div>
+            <div class="inputs">
+              <input class="form-control" type="text" name="clinicaConsulta" placeholder="Clínica de atendimento">
+            <input class="form-control" type="text" name="diagnosticoConsulta" placeholder="Diagnóstico">
+            </div>
+          </form>
+          <div class="d-flex flex-column align-items-center justify-content-center">
+            <h6>Tratamento</h6>
+            <h6>Giradicid - 1 comprimido - 2x Dia - 5 dias</h6>
+          </div>
+          <div class="confirma-exclui d-flex justify-content-center align-items-center">
+          <div class="opcoes">
+            <h4>
+              <i class="fa-solid fa-check" style="color: #268b24;"></i>
+              <i class="fa-solid fa-xmark" style="color: #9d1e15;"></i>
+            </h4>
+          </div>
+        </div>
+        </div>
+        <form action="d-flex justify-content-center align-itens-center">
+          <div class="adicionar-tratamento flex-column justify-content-center align-itens-center">
+            <h5><i class="fa-solid fa-plus"></i> Incluir Tratamento</h5>
+          </div>
+          <div class="inputs">
+            <input class="form-control" type="text" name="nomeMedicamento" placeholder="Medicação">
+            <div class="form-group">
+              <select id="my-select" class="form-control" name="tipoMedicamento">
+                <option>Forma de Apresentação</option>
+                <option>Comprimido</option>
+                <option>Líquido</option>
+                <option>Injetável</option>
+                <option>Colírio</option>
+                <option>Pomada</option>
+              </select>
+            </div>
+            <input class="form-control" type="text" name="quantidadeMedicamento" placeholder="Quantidade Prescrita">
+            <div class="form-group">
+              <select id="my-select" class="form-control" name="tipoMedicamento">
+                <option>Vezes ao Dia</option>
+                <option>1x dia</option>
+                <option>2x dia</option>
+                <option>3x dia</option>
+                <option>4x dia</option>
+                <option>5x dia</option>
+                <option>6x dia</option>
+                <option>8x dia</option>
+                <option>12x dia</option>
+                <option>Dias Alternados</option>
+                <option>Semanal</option>
+                <option>Quinzenal</option>
+                <option>Mensal</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <input class="form-control" type="text" name="tempoMedicamento" placeholder="Tempo de tratamento">
+          </div>
+        </form>
+        <div class="confirma-exclui">
+          <div class="opcoes">
+            <h4>
+              <i class="fa-solid fa-check" style="color: #268b24;"></i>
+              <i class="fa-solid fa-xmark" style="color: #9d1e15;"></i>
+            </h4>
+          </div>
+        </div>
+        <div class="transferencia d-flex flex-column align-items-center">
+          <hr><br>
+          <button class="transferencia-btn btn btn-primary" type="button">Gerar Código de Transferência</button>
+          <h3>YX0476HQ</h3>
+          <p>Informe esse código ao novo Tutor do animal para realizar a transferência</p>
         </div>
     </div>
   </div>
