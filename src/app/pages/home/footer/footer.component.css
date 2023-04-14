@@ -8,9 +8,13 @@
 }
 
 .accordion-button {
-  background-color: rgb(234, 201, 249);
+  background-color: rgb(216, 240, 240);
   color: #424242;
   font-weight: bold;
+}
+
+.accordion-item {
+  max-width: 500px;
 }
 
 .contato {

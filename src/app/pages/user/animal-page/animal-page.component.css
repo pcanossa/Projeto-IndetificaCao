@@ -22,7 +22,7 @@ h6 {
 
 .nav-menu {
   min-width:25%;
-  background-color: #E9CEF6;
+  background-color: #b0e8e4;
   min-height: 800vh;
 }
 
@@ -82,7 +82,7 @@ h2 {
 
 .card-vacina {
   min-width: 80%;
-  background-color: #dcf9e8;
+  background-color: #d7fdfb;
   padding: 15px 10px 0px 15px;
   border-radius: 15px;
   margin-bottom: 15px;
@@ -106,7 +106,7 @@ input {
 }
 
 .transferencia-btn {
-  background-color: rgb(9, 170, 116);
+  background-color: rgb(4, 154, 139);
   border: none;
   color: #d8dadb;
   margin: 30px 0;
