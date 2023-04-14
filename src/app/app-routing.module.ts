@@ -6,6 +6,7 @@ import { PrincipalComponent } from './pages/home/principal/principal.component';
 import { AnimaisComponent } from './pages/user/animais/animais.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CadastroUserComponent } from './pages/home/cadastro-user/cadastro-user.component';
+import { AdotadosComponent } from './pages/user/adotados/adotados.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'cadastro',
     component: CadastroUserComponent
+  },
+  {
+    path: 'adotados',
+    component: AdotadosComponent
   }
 ];
 

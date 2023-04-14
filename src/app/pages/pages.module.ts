@@ -18,6 +18,7 @@ import { LoginComponent } from './login/login.component';
 import { AnimaisComponent } from './user/animais/animais.component';
 import { AnimalPageComponent } from './user/animal-page/animal-page.component';
 import { UserNavbarComponent } from './user/user-navbar/user-navbar.component';
+import { TopoPageComponent } from './user/topo-page/topo-page.component';
 
 
 
@@ -40,6 +41,7 @@ import { UserNavbarComponent } from './user/user-navbar/user-navbar.component';
     AnimaisComponent,
     AnimalPageComponent,
     UserNavbarComponent,
+    TopoPageComponent,
   ],
   imports: [
     CommonModule,

@@ -41,7 +41,6 @@
 
 .animal-card-adopt {
   min-width: 35%;
-  background-color: #DBEFFA;
   margin: 40px;
   border-radius: 15px;
   display: flex;
@@ -51,6 +50,7 @@
   padding-left: 20px;
   padding-top: 5px;
   padding-right: 15px;
+  background-color: #DBEFFA;
 }
 
 .animal-card-devolution {
@@ -72,5 +72,9 @@
   display: flex;
   flex-direction: column;
   margin-left: 5px;
+}
+
+.input-group {
+ padding: 40px 20px;
 }
 
