@@ -7,6 +7,8 @@ import { AnimaisComponent } from './pages/user/animais/animais.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CadastroUserComponent } from './pages/home/cadastro-user/cadastro-user.component';
 import { AdotadosComponent } from './pages/user/adotados/adotados.component';
+import { PerdidosComponent } from './pages/user/perdidos/perdidos.component';
+import { AnimalPageComponent } from './pages/user/animal-page/animal-page.component';
 
 const routes: Routes = [
   {
@@ -28,6 +30,14 @@ const routes: Routes = [
   {
     path: 'adotados',
     component: AdotadosComponent
+  },
+  {
+    path: 'perdidos',
+    component: PerdidosComponent
+  },
+  {
+    path: 'animalPage',
+    component: AnimalPageComponent
   }
 ];
 
