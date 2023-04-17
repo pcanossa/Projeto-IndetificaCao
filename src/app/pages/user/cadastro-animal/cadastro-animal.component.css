@@ -1,0 +1,19 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  color: #5C5C5C;
+  text-decoration: none;
+}
+
+.nav-menu {
+  min-width:30%;
+  background-color: #b0e8e4;
+}
+
+.cadastro-animal {
+  min-width: 70%;
+  padding-top: 40px;
+}
+
+.ficha-cadastro input {
+  max-width: 150px;
+}

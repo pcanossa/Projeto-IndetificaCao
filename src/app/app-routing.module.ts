@@ -9,6 +9,7 @@ import { CadastroUserComponent } from './pages/home/cadastro-user/cadastro-user.
 import { AdotadosComponent } from './pages/user/adotados/adotados.component';
 import { PerdidosComponent } from './pages/user/perdidos/perdidos.component';
 import { AnimalPageComponent } from './pages/user/animal-page/animal-page.component';
+import { CadastroAnimalComponent } from './pages/user/cadastro-animal/cadastro-animal.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,10 @@ const routes: Routes = [
   {
     path: 'animalPage',
     component: AnimalPageComponent
+  },
+  {
+    path: 'novoAnimal',
+    component: CadastroAnimalComponent
   }
 ];
 
