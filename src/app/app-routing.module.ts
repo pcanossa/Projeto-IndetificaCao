@@ -10,6 +10,8 @@ import { AdotadosComponent } from './pages/user/adotados/adotados.component';
 import { PerdidosComponent } from './pages/user/perdidos/perdidos.component';
 import { AnimalPageComponent } from './pages/user/animal-page/animal-page.component';
 import { CadastroAnimalComponent } from './pages/user/cadastro-animal/cadastro-animal.component';
+import { AtualizarDadosUserComponent } from './pages/user/atualizar-dados-user/atualizar-dados-user.component';
+import { AtualizarDadosAnimalComponent } from './pages/user/atualizar-dados-animal/atualizar-dados-animal.component';
 
 const routes: Routes = [
   {
@@ -43,7 +45,16 @@ const routes: Routes = [
   {
     path: 'novoAnimal',
     component: CadastroAnimalComponent
-  }
+  },
+  {
+    path: 'atualizarUser',
+    component: AtualizarDadosUserComponent
+  },
+
+  {
+    path: 'atualizarAnimal',
+    component: AtualizarDadosAnimalComponent
+  },
 ];
 
 @NgModule({

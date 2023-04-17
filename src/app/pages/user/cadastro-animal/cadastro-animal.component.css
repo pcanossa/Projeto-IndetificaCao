@@ -10,10 +10,46 @@
 }
 
 .cadastro-animal {
-  min-width: 70%;
+  max-width: 70%;
   padding-top: 40px;
 }
 
-.ficha-cadastro input {
+
+.ficha-cadastro .form-check-input {
   max-width: 150px;
+}
+
+.radios {
+  margin: 30px
+}
+
+.radios h6 {
+  margin-top: 10px;
+}
+
+.form-check {
+  margin: 10px 50px;
+}
+
+.particularidades {
+  min-width: 300px;
+}
+
+.form-particularidades {
+  margin: 15px;
+}
+
+.form-foto {
+  margin: 20px;
+}
+
+.form-foto input{
+  max-width: 350px;
+}
+
+.btn {
+  background-color: #0b9d9d;
+  border: none;
+  color: aliceblue;
+  margin-bottom: 20px;
 }

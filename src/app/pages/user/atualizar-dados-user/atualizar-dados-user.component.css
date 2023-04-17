@@ -1,0 +1,36 @@
+.titulo {
+  font-family: 'Amatic SC', cursive;
+  color: #424242;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.form {
+  margin: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+input {
+  max-width: 500px;
+  max-height: 50px;
+  background-color: #F1E7F8;
+  color: #424242;
+  margin: 10px 10px;
+}
+
+.radios {
+  margin: 30px
+}
+
+.radios h6 {
+  margin-top: 10px;
+}
+
+.form-check {
+  margin: 10px 50px;
+}
+
+.btn {
+  background-color: #0b9d9d;
+  border: none;
+}

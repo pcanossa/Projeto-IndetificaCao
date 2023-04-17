@@ -19,6 +19,8 @@ import { AnimaisComponent } from './user/animais/animais.component';
 import { AnimalPageComponent } from './user/animal-page/animal-page.component';
 import { UserNavbarComponent } from './user/user-navbar/user-navbar.component';
 import { TopoPageComponent } from './user/topo-page/topo-page.component';
+import { AtualizarDadosAnimalComponent } from './user/atualizar-dados-animal/atualizar-dados-animal.component';
+import { AtualizarDadosUserComponent } from './user/atualizar-dados-user/atualizar-dados-user.component';
 
 
 
@@ -42,6 +44,8 @@ import { TopoPageComponent } from './user/topo-page/topo-page.component';
     AnimalPageComponent,
     UserNavbarComponent,
     TopoPageComponent,
+    AtualizarDadosAnimalComponent,
+    AtualizarDadosUserComponent,
   ],
   imports: [
     CommonModule,
