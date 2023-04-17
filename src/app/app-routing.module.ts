@@ -12,6 +12,7 @@ import { AnimalPageComponent } from './pages/user/animal-page/animal-page.compon
 import { CadastroAnimalComponent } from './pages/user/cadastro-animal/cadastro-animal.component';
 import { AtualizarDadosUserComponent } from './pages/user/atualizar-dados-user/atualizar-dados-user.component';
 import { AtualizarDadosAnimalComponent } from './pages/user/atualizar-dados-animal/atualizar-dados-animal.component';
+import { EncontradoComponent } from './pages/home/encontrado/encontrado.component';
 
 const routes: Routes = [
   {
@@ -54,6 +55,10 @@ const routes: Routes = [
   {
     path: 'atualizarAnimal',
     component: AtualizarDadosAnimalComponent
+  },
+  {
+    path: 'encontreiAnimal',
+    component: EncontradoComponent
   },
 ];
 
