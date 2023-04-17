@@ -1,3 +1,8 @@
+.nav-menu {
+  min-width:30%;
+  background-color: #b0e8e4;
+}
+
 .titulo {
   font-family: 'Amatic SC', cursive;
   color: #424242;
