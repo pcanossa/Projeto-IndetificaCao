@@ -13,6 +13,8 @@ import { CadastroAnimalComponent } from './pages/user/cadastro-animal/cadastro-a
 import { AtualizarDadosUserComponent } from './pages/user/atualizar-dados-user/atualizar-dados-user.component';
 import { AtualizarDadosAnimalComponent } from './pages/user/atualizar-dados-animal/atualizar-dados-animal.component';
 import { EncontradoComponent } from './pages/home/encontrado/encontrado.component';
+import { ListaEncontradosComponent } from './pages/home/lista-encontrados/lista-encontrados.component';
+import { AnimalPublicComponent } from './pages/home/animal-public/animal-public.component';
 
 const routes: Routes = [
   {
@@ -59,6 +61,14 @@ const routes: Routes = [
   {
     path: 'encontreiAnimal',
     component: EncontradoComponent
+  },
+  {
+    path: 'listaEcontrados',
+    component: ListaEncontradosComponent
+  },
+  {
+    path: 'animalPublic',
+    component: AnimalPublicComponent
   },
 ];
 

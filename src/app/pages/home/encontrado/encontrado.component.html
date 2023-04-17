@@ -2,4 +2,78 @@
 <div class="form-encontro d-flex flex-column justify-content-center align-items-center">
   <h1>VOCÊ ENCONTROU UM ANIMAL?</h1>
   <h5>Nos conte um pouco mais sobre as características dele:</h5>
-</div>
+  <div class="cadastro-animal d-flex flex-column align-items-center flex-wrap">
+    <form action="post" class="cadastro-user d-flex flex-column justify-content-evenly align-itens-center flex-wrap">
+      <div class="radios d-flex flex-wrap align-items-center">
+        <h6>Espécie: </h6>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+          <label class="form-check-label" for="flexRadioDefault1">
+            Canina
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+          <label class="form-check-label" for="flexRadioDefault2">
+            Felina
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+          <label class="form-check-label" for="flexRadioDefault2">
+            Outro
+          </label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="outraEspecie" placeholder="oustraEspecie">
+          <label for="outraEspecie">Especifique</label>
+        </div>
+      </div>
+      <div class="inputs d-flex justify-content-evenly flex-wrap">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="nomeAnimal" placeholder="Nome do Animal">
+          <label for="nomeAnimal">Nome do Animal</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="raca" placeholder="racaAnimal">
+          <label for="racaAnimal">Raça</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="microchipAnimal" placeholder="microchipAnimal">
+          <label for="cpf">Microchip</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="corAnimal" placeholder="corAnimal">
+          <label for="cnpj">Cor do Animal</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="anoAnimal" placeholder="anoAnimal">
+          <label for="telefone">Ano de Nascimento</label>
+        </div>
+      </div>
+      <div class="radios d-flex flex-wrap">
+        <h6>Sexo: </h6>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+          <label class="form-check-label" for="flexRadioDefault1">
+            Fêmea
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+          <label class="form-check-label" for="flexRadioDefault2">
+            Macho
+          </label>
+        </div>
+      </div>
+      <div class="form-particularidades d-flex justify-content-evenly">
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Particularidades</label>
+          <textarea class="particularidades form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Ex: Animal possui uma mancha preta na pata direita"></textarea>
+        </div>
+      </div>
+    </form>
+    <a href="/listaEcontrados"><button class="btn btn-primary" type="button">Pesquisar</button></a>
+
+  </div>
+</div>s
