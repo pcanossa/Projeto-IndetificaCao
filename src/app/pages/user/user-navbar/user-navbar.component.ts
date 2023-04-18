@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-user-navbar',
@@ -11,5 +11,6 @@ export class UserNavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }

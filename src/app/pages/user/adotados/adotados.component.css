@@ -78,3 +78,15 @@
 .input-group {
  padding: 40px 20px;
 }
+
+@media screen and (min-width: 451px) {
+  .nav-menu {
+    min-width:25%;
+    background-color: #b0e8e4;
+  }
+
+  .animais {
+    min-width: 70%;
+    margin-top: 50px;
+  }
+}

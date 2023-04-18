@@ -5,7 +5,6 @@
 }
 
 .body {
-  min-height: 100vh;
   color: #4A4A4A;
   background-color: #b0e8e4;
   min-width: 100%;
@@ -34,4 +33,39 @@
 
 .item-menu {
   margin-bottom: 35px;
+}
+
+@media screen and (max-width: 450px) {
+  .body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .head-menu {
+    margin-right: 80px;
+    padding: 10px;
+  }
+
+  .itens-menu {
+    display: none !important;
+  }
+
+  .drop-itens {
+    margin-bottom: 20px;
+  }
+
+  .drop-itens .accordion-button {
+    width: 300px;
+  }
+
+}
+
+@media screen and (min-width: 451px) {
+  .accordion-button {
+    display: none !important;
+  }
 }

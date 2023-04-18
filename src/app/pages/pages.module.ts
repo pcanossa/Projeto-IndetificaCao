@@ -21,6 +21,7 @@ import { UserNavbarComponent } from './user/user-navbar/user-navbar.component';
 import { TopoPageComponent } from './user/topo-page/topo-page.component';
 import { AtualizarDadosAnimalComponent } from './user/atualizar-dados-animal/atualizar-dados-animal.component';
 import { AtualizarDadosUserComponent } from './user/atualizar-dados-user/atualizar-dados-user.component';
+import { ResizeNavbarComponent } from './user/resize-navbar/resize-navbar.component';
 
 
 
@@ -46,6 +47,7 @@ import { AtualizarDadosUserComponent } from './user/atualizar-dados-user/atualiz
     TopoPageComponent,
     AtualizarDadosAnimalComponent,
     AtualizarDadosUserComponent,
+    ResizeNavbarComponent,
   ],
   imports: [
     CommonModule,

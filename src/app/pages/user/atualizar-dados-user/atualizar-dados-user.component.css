@@ -39,3 +39,15 @@ input {
   background-color: #0b9d9d;
   border: none;
 }
+
+@media screen and (min-width: 451px) {
+  .nav-menu {
+    min-width:25%;
+    background-color: #b0e8e4;
+  }
+
+  .header-card {
+    min-width: 70%;
+    margin-top: 50px;
+  }
+}
