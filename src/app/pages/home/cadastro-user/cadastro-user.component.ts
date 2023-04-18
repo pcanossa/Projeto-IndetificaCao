@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroUserComponent implements OnInit {
 
+  validError: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  verificaError():void {
+    this.validError = true;
   }
 
 }

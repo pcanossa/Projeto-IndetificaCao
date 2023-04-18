@@ -58,8 +58,17 @@
     margin-bottom: 20px;
   }
 
-  .drop-itens .accordion-button {
+  .drop-itens .accordion .accordion-item .accordion-button {
     width: 300px;
+    border-radius: 15px;
+  }
+
+  .accordion {
+    border-radius: 15px;
+  }
+
+  .accordion-item {
+    border-radius: 15px;
   }
 
 }
