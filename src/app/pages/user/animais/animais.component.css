@@ -6,8 +6,9 @@
 
 
 .nav-menu {
-  min-width:30%;
+  min-width:25%;
   background-color: #b0e8e4;
+  height: 100%;
 }
 
 .animais {
